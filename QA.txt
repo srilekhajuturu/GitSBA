@@ -1,0 +1,41 @@
+1.About responsible team?
+Ans::People responsible for the particular project
+2.about dependent team?
+Ans::Dependents on the project.
+3.difference between release and version in FDS?
+Ans::Now the current release is 2.1 and version is 1.1.according to the user requirements there will be change in the updated version and release.
+4.about target system-s/4 HANA?
+Ans::The final target of this bridge project to sync all the manually created Eclipse deals to s4.
+5.About downstream system in Eclipse?
+Ans::All the manually created Eclipse deals,after quoting will reach to downstream systems.
+6.Bidirectional flow in Business impact??
+Ans::In this bridge project there is a flow from Eclipse to s4 and s4 to Eclipse.The deals will automatically sync from Eclipse to s4,but reversal is not possible.
+7.Ignore customer details on a deal which has a Generic customer on a deal--Explanation
+Ans::whenever the generic customers are added in the deal,it is not visible in the json and also the s4 team cannot see that paricular data.
+8.About GEO Split
+Ans::In deal page under products we can see geosplit.Geosplit is also similar to generic.
+9.About High touch and low touch in deal scenario
+Ans::Whatever the deals now we are creating in deal manager are high touch deals only by default.Only the NGQ team are capable of creating hightouch and low touch deals.
+10.About EDMS.
+Ans::EDMS means Eclipse deal manager service.Whatever the deals we will create in eclipse ,they will reach to EDMS.
+11.About MDM System.
+Ans::MDM means master data management system.if there is any mismatch  between Party id and OPSI id then MDM System will be the responsible.
+12.About Integration Fabric
+Ans::Integration fabric in short called as IF.It is the middleware between Eclipse and S4.
+13.Flow from Eclipse to S/4--Block daigram
+Ans:Eclipse--Quoted Deal --Eclipse middleware(IF)---s/4.
+14.Flow from s/4 to Eclipse --Block Daigram
+Ans::S/4 ---Middleware(IF)----EDMS
+15.Brief expalnation of different downstream systems.
+Ans::1>PRS
+     2>patsy
+     3>VISTA
+     4>Corona
+16.Flow from NGQ to Eclipse.
+Ans::NGQ team will crete quotes that can be visible in Eclipse in the form of Deal number.
+17.Flow from Eclipse to NGQ.
+Ans::Eclipse team will send the deal numbers to the respective NGQ team. 
+18.Role of Testers in the project.
+Ans::To test whether the deals are syncing to S4 are no.
+19.need of this bridge project.
+Ans:Since the Eclipse has been using for a long time,to bring an update ,there is an emergence of this bridge project.
